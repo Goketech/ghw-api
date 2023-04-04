@@ -23,7 +23,7 @@ def hello_ghw():
 
 @app.route("/getHackathons", methods=["GET"])
 def getHackathons():
-    return hackathons
+    return hackathons   
 
 if __name__=="__main__":
     app.run(debug = True)
